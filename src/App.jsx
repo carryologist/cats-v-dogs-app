@@ -98,7 +98,7 @@ function App() {
     <div className="min-h-screen bg-gradient-to-br from-purple-400 via-pink-500 to-red-500">
       <div className="container mx-auto px-4 py-8">
         <header className="text-center mb-12">
-          <h1 className="text-6xl font-bold text-white mb-4">🐈‍⬛ vs 🐶</h1>
+          <h1 className="text-6xl font-bold text-white mb-4">🐈‍⬛ vs 🐕</h1>
           <h2 className="text-3xl font-bold text-white mb-2">The Ultimate Showdown</h2>
           <p className="text-xl text-white opacity-90">Finally settle the age-old debate with completely scientific voting</p>
         </header>
@@ -142,7 +142,7 @@ function App() {
                   </div>
                   
                   <div className="text-center">
-                    <div className="text-6xl mb-4">🐶</div>
+                    <div className="text-6xl mb-4">🐕</div>
                     <p className="text-gray-600 mb-4 italic">{category.dogDesc}</p>
                     <button
                       onClick={() => vote(category.id, 'dogs')}
