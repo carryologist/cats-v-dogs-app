@@ -1,0 +1,9 @@
+/* Custom animations and styles */
+.vote-button:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s ease;
+}
+
+.progress-bar {
+  transition: width 0.5s ease;
+}
